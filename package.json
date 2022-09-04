@@ -1,0 +1,33 @@
+{
+	"name": "@somethings/eslint-config-base",
+	"version": "8.23.0-0",
+	"description": "Base ESLint configuration.",
+	"keywords": [
+		"eslint",
+		"config",
+		"base"
+	],
+	"author": {
+		"name": "Anton Galtsev",
+		"email": "avgaltsev@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/avgaltsev/eslint-config-base"
+	},
+	"license": "MIT",
+	"directories": {
+		"lib": "./lib/"
+	},
+	"exports": {
+		".": "./lib/index.js"
+	},
+	"main": "./lib/index.js",
+	"devDependencies": {
+		"eslint": "^8.23.0"
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"prepare": "npm run lint"
+	}
+}
